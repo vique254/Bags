@@ -1,8 +1,18 @@
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-section {
-    padding: 60px 0;
+body{
+    overflow-x: hidden;
+    overflow-y:scroll;
+    background-image: url('https://cdn.pixabay.com/photo/2016/02/07/20/08/music-1185524__340.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
+img{
+    padding: 20px;
+}
+p{
+    font-family: sofial;
+    font-size: 18px;
+}
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 section .section-title {
     text-align: center;
     color: #007b5e;
@@ -12,11 +22,11 @@ section .section-title {
 #footer {
     background: #007b5e !important;
 }
-#footer h5{
+#footer p{
 	padding-left: 10px;
-    border-left: 3px solid #eeeeee;
-    padding-bottom: 6px;
-    margin-bottom: 20px;
+    /* border-left: 3px solid #eeeeee; */
+    /* padding-bottom: 6px; */
+    /* margin-bottom: 20px; */
     color:#ffffff;
 }
 #footer a {
