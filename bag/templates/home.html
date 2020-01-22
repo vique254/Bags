@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load bootstrap4 %}
+{% block content %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +11,76 @@
 </head>
 <body>
     <h1 class="jumbotron text-center">Welcome To Bagz </h1>
-    <p>Good and quality bags sold at an affordable price</p>
+    <p class="text-center"><strong> Good and quality bags sold at an affordable price</strong></p>
+    <style>
+            /* Make the image fully responsive */
+            .carousel-inner img {
+                padding-left:180px;
+                max-width: 1000px;
+                position: relative;
+                margin: auto;
+            }
+            #bagg{
+                background-color: black;
+            }
+            </style>
+    <div id="bagg" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#bagg" data-slide-to="0" class="active"></li>
+          <li data-target="#bagg" data-slide-to="1"></li>
+          <li data-target="#bagg" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://cdn.pixabay.com/photo/2015/12/08/00/36/luggage-1081872__340.jpg" alt="luggage" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>Luggage bag</h3>
+              <p>Try it out!</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.pixabay.com/photo/2016/11/18/19/39/backpack-1836594__340.jpg" alt="backpack" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>backpack</h3>
+              <p>Good for hikes.</p>
+            </div>   
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.pixabay.com/photo/2016/11/23/18/12/bag-1854148__340.jpg" alt="classic leather" width="1100" height="500">
+            <div class="carousel-caption">
+              <h3>Leather bag</h3>
+              <p>For classic people like you .</p>
+            </div>   
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#bagg" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#bagg" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      <img src="https://cdn.pixabay.com/photo/2017/09/08/07/59/bag-2728000__340.png" alt="">
+      <img src="https://cdn.pixabay.com/photo/2013/07/12/17/58/backpack-152705__340.png" alt="">
+      <img src="https://image.shutterstock.com/image-photo/close-photo-trendy-violet-bag-260nw-1050712877.jpg" alt="">
+      <img src="https://cdn.pixabay.com/photo/2015/09/09/21/31/luggage-933487__340.jpg"  alt="">
+      <img src="https://cdn.pixabay.com/photo/2015/09/05/18/06/backpack-924589__340.png"  alt="">
+      <img src="https://cdn.pixabay.com/photo/2017/06/30/21/53/backpack-2459934__340.png" alt="">
+      <img src="https://cdn.pixabay.com/photo/2016/12/19/06/52/the-leaves-1917669__340.jpg" alt="">
+      <img src="https://media-public.canva.com/MADas7rozTU/1/thumbnail_large-1.jpg" alt="">
+      <img src="https://cdn.pixabay.com/photo/2017/01/10/09/11/bag-1968643__340.png" alt="">
+      <img src="https://cdn.pixabay.com/photo/2015/12/08/00/36/luggage-1081872__340.jpg" alt="">
+      <img src="https://cdn.pixabay.com/photo/2016/06/05/00/06/luggage-1436515__340.jpg" alt="">
+      <img src="https://cdn.pixabay.com/photo/2015/11/19/19/00/purse-1051711__340.jpg" alt="">
+      <img src="https://cdn.pixabay.com/photo/2015/11/19/19/01/purse-1051714__340.jpg" alt="">
+      <img src="https://cdn.pixabay.com/photo/2014/11/06/10/56/airport-519020__340.jpg" alt="">
+      <img src="https://cdn.pixabay.com/photo/2016/02/19/11/44/bag-1209918__340.jpg" alt="">
+      <img src="https://image.shutterstock.com/image-photo/man-pulling-out-laptop-leather-260nw-1110816977.jpg" alt="laptop">
+      <img src="https://image.shutterstock.com/image-photo/hand-pulling-laptop-out-bag-260nw-580456396.jpg" alt="">
+      <img src="https://image.shutterstock.com/image-photo/black-leather-briefcase-laptop-handbag-260nw-1091970266.jpg" alt="">
+      <img src="https://cdn.pixabay.com/photo/2016/11/29/01/36/bag-1866582__340.jpg" alt="">
+      <img src="/bag/lap.jpeg" alt="">
+      <img src="" alt="">
 </body>
 </html>
+{% endblock %}
